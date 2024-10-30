@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  overflow: auto;
+  background: #092424;
+}
+
+.initial_loading {
+  color: #fff;
+}
+
+.missing_page {
+  color: #fff;
+  padding: 100px;
+}
+
+.missing_link {
+  color: #548341;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 400px) {
+  .missing_page {
+    padding: 150px 50px 0;
+  }
+}
